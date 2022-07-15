@@ -1,7 +1,8 @@
 
 # ECLIPSE: Efficient Long-range Video Retrieval using Sight and Sound 
 
-<img src="https://raw.githubusercontent.com/facebookresearch/unbiased-teacher/main/teaser/pytorch-logo-dark.png" width="10%"> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<img src="https://raw.githubusercontent.com/facebookresearch/unbiased-teacher/main/teaser/pytorch-logo-dark.png" width="10%"> 
+<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
 
 This is the PyTorch implementation of our paper: <br>
 **ECLIPSE: Efficient Long-range Video Retrieval using Sight and Sound**<br>
