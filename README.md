@@ -1,7 +1,7 @@
 
 # ECLIPSE: Efficient Long-range Video Retrieval using Sight and Sound 
 
-<img src="https://raw.githubusercontent.com/facebookresearch/unbiased-teacher/main/teaser/pytorch-logo-dark.png" width="10%"> 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <img src="https://raw.githubusercontent.com/facebookresearch/unbiased-teacher/main/teaser/pytorch-logo-dark.png" width="10%"> 
 <!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
 
 This is the PyTorch implementation of our paper: <br>
@@ -11,17 +11,42 @@ In European Conference on Computer Vision, 2022. <br>
 
 [paper](https://arxiv.org/abs/2204.02874) 
 
-<!-- ### 📝 Preparation 
+### 📝 Preparation 
 1. `pip3 install requirements.txt`
-2. Following [AVVP](https://github.com/YapengTian/AVVP-ECCV20), prepare pre-extracted features in `.feats/r2plus1d_18`, `.feats/res152`, and `.feats/vggish`
+2. Dataset:  ActivityNet, QVHighlights, YouCook2, DiDeMo and Charades.
+3. extract video frames in 3 fps.
+4. extract audio features.
+
+/playpen-iop/yblin/Charades/raw_frames
+### 💿 Extracted images and audio features. 
+```shell
+ActivityNet/
+├── raw_frames/
+│       └── VIDEO_NAME/
+│           ├── 0001.jpg
+│           ├── ...
+│           └── 00...jpg
+│
+└── VGGSound_Audio_features_10s_aligned/
+        └── VIDEO_NAME/
+            ├── 0000.pt
+            ├── ...
+            └── 00...pt
+
+```
 
 
 ### 📚 Train and evaluate
+ActivityNet Caption: `bash run_act.sh`
+DiDemo: `bash run_didemo.sh`
+Charades: `bash run_cha.sh`
+QVHighlight:`bash run_qvh.sh`
+YouCook2: `bash run_yc2.sh`
 
-Simply run `bash run.sh` -->
 
 
-## 🎓 Cite
+
+### 🎓 Cite
 
 If you use this code in your research, please cite:
 
@@ -35,6 +60,13 @@ year = {2022}
 }
 ```
 
-<!-- ## License
+### 👍 Acknowledgments
+Our code is based on [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip) and [VGGSound](https://www.robots.ox.ac.uk/~vgg/data/vggsound/)
 
-This project is licensed under CC-BY-NC 4.0 License, as found in the LICENSE file. -->"# ECLIPSE" 
+### ✏ Future works
+* Preprocessed video frames and audio features
+
+
+## License
+
+This project is licensed under [MIT License](LICENSE), as found in the LICENSE file.
