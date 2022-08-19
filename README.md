@@ -52,7 +52,7 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @InProceedings{ECLIPSE_ECCV22,
-author = {Yan-Bo Lin, Jie Lei, Mohit Bansal, Gedas Bertasius},
+author = {Yan-Bo Lin and Jie Lei and Mohit Bansal and Gedas Bertasius},
 title = {ECLIPSE: Efficient Long-range Video Retrieval using Sight and Sound},
 booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
 month = {October},
