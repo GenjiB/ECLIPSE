@@ -17,8 +17,8 @@ In European Conference on Computer Vision, 2022. <br>
 3. extract video frames in 3 fps.
 4. extract audio features.
 
-/playpen-iop/yblin/Charades/raw_frames
-### 💿 Extracted images and audio features. 
+
+### 💿 Extract images and audio features. 
 ```shell
 ActivityNet/
 ├── raw_frames/
@@ -36,12 +36,16 @@ ActivityNet/
 ```
 
 
+
+### 💿 Extracted audio features. 
+VGGSound features on ActivityNet Captions: [Google Drive](https://drive.google.com/file/d/1PbZPrgO5HTuG_CORcS_zScQCUeFo1JOL/view?usp=sharing)
+
 ### 📚 Train and evaluate
-ActivityNet Caption: `bash run_act.sh`
-DiDemo: `bash run_didemo.sh`
-Charades: `bash run_cha.sh`
-QVHighlight:`bash run_qvh.sh`
-YouCook2: `bash run_yc2.sh`
+ActivityNet Captions: `bash run_act.sh` \
+DiDemo: `bash run_didemo.sh` \
+Charades: `bash run_cha.sh` \
+QVHighlight:`bash run_qvh.sh` \
+YouCook2: `bash run_yc2.sh`\
 
 
 
