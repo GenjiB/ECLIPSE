@@ -45,7 +45,7 @@ ActivityNet Captions: `bash run_act.sh` \
 DiDemo: `bash run_didemo.sh` \
 Charades: `bash run_cha.sh` \
 QVHighlight:`bash run_qvh.sh` \
-YouCook2: `bash run_yc2.sh`\
+YouCook2: `bash run_yc2.sh`
 
 
 

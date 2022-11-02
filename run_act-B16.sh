@@ -14,7 +14,7 @@ main_task_retrieval.py --do_train --num_thread_reader=6 \
 --datatype activity --feature_framerate 1  \
 --freeze_layer_num 0  --slice_framepos 2 \
 --loose_type --linear_patch 2d --sim_header meanP \
---yb_av 0 --yb_dual 0 --yb_factor_aduio 0.5 --yb_time_cross_audio 0 --yb_factor_audio_decay 0.2 --yb_reverse_norm 1 \
+--yb_av 1 --yb_dual 1 --yb_factor_aduio 0.5 --yb_time_cross_audio 0 --yb_factor_audio_decay 0.2 --yb_reverse_norm 1 \
 --yb_audio_length 10 \
 --pretrained_clip_name ViT-B/16  --wandb 1 --fixed_length 8 --model_name  ECLIPSE_act_f32_B16 \
 --audio_pt VGGSound_Audio_features_10s_aligned
