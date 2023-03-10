@@ -16,6 +16,17 @@ In European Conference on Computer Vision, 2022. <br>
 2. Dataset:  ActivityNet, QVHighlights, YouCook2, DiDeMo and Charades.
 3. extract video frames in 3 fps.
 4. extract audio features.
+5. To load pretrained CLIP weight
+
+The download links are from official [CLIP4Clip](https://github.com/ArrowLuo/CLIP4Clip)
+Download CLIP (ViT-B/32) weight,
+```sh
+wget -P ./modules https://openaipublic.azureedge.net/clip/models/40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af/ViT-B-32.pt
+```
+or, download CLIP (ViT-B/16) weight,
+```sh
+wget -P ./modules https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt
+```
 
 
 ### 💿 Extract images and audio features. 
